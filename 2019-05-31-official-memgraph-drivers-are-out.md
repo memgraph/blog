@@ -1,4 +1,7 @@
-# Official Memgraph Drivers Are Out!
+---
+layout: post
+title: "Official Memgraph Drivers Are Out!"
+---
 
 We're happy to announce that Memgraph drivers for Python and C languages, as
 well as Memgraph CLI are now published. You can find their GitHub repositories
