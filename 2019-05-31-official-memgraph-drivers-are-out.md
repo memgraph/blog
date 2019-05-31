@@ -13,8 +13,8 @@ their respective GitHub repositories here:
 
 ## How to get started
 
-We will show you how to setup [mgclient], [pymgclient] and [mgconsole] and run
-a few basic queries.
+We will now learn how to install [mgclient], [pymgclient] and [mgconsole] and
+run a few basic queries.
 
 ### Installing mgclient
 
