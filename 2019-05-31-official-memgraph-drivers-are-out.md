@@ -4,8 +4,8 @@ title: "Official Memgraph Drivers Are Out!"
 ---
 
 We're happy to announce that Memgraph drivers for Python and C languages, as
-well as Memgraph CLI are now published. You can find their GitHub repositories
-here:
+well as Memgraph CLI (command line interface) are now published. You can find
+their respective GitHub repositories here:
 
 - [mgclient] (C driver)
 - [pymgclient] (DB-API 2.0 compliant Python driver)
@@ -13,9 +13,12 @@ here:
 
 ## How to get started
 
+We will show you how to setup [mgclient], [pymgclient] and [mgconsole] and run
+a few basic queries.
+
 ### Installing mgclient
 
-Memgraph C driver, [mgclient], serves as a base for both [pymgclient] and
+The Memgraph C driver, [mgclient], serves as a base for both [pymgclient] and
 [mgconsole], so you will have to install it first. At this moment, the only way
 to install [mgclient] is by building from source. You can start by cloning the
 [GitHub repository](https://github.com/memgraph/mgclient) and following
@@ -36,17 +39,17 @@ documentation](https://memgraph.github.io/pymgclient).
 
 ### Installing mgconsole
 
-Memgraph command line interface, [mgconsole], also has to be installed from
+The Memgraph command line interface, [mgconsole], also has to be installed from
 source. The steps are very similar to those for installing the C driver. Again,
 you can find the detailed instructions in the README file in [mgconsole] GitHub
 repository.
 
 
-## Using pymgclient
+### Using pymgclient
 
-Python driver is compliant with DB-API 2.0 specification, so using it should
-feel natural if you have used other Python database drivers before. You can
-find detailed documentation [here](https://memgraph.github.io/pymgclient/).
+The Python driver is compliant with DB-API 2.0 specification, so using it
+should feel natural if you have used other Python database drivers before. You
+can find detailed documentation [here](https://memgraph.github.io/pymgclient/).
 Here's a code snippet that shows how to connect to Memgraph and execute a
 simple query:
 
@@ -82,10 +85,9 @@ simple query:
 >>> conn.commit()
 ```
 
+### Using mgconsole
 
-## Using mgconsole
-
-Here's an example showing how to use Memgraph command line interface:
+Here's an example showing how to use the Memgraph command line interface:
 
 ```
 $ mgconsole --host 127.0.0.1 --port 7687 --use-ssl=false
@@ -120,7 +122,11 @@ memgraph> :quit
 Bye
 ```
 
-***
+---
+
+We have now installed [mgclient], [pymgclient] and [mgconsole] and learned how
+to run a few basic queries. You're now ready to explore on your own! Make sure
+you check out the GitHub repositories for documentation and more resources.
 
 The clients are still in early 0.1 version, so if you run into any issues or
 have any improvement ideas, please feel free to raise an issue on GitHub or
