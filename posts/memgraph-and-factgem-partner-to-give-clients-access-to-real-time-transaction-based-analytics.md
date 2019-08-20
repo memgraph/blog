@@ -5,7 +5,7 @@ title: Memgraph and FactGem Partner to Give Clients Access to Real-Time, Transac
 description: The partnership now allows clients real-time, more comprehensive data availability and analysis across their enterprise data.
 date: 2019-02-05
 sitemap: true
-header-image: /assets/img/blog/factgem-partner.jpg
+header-image: "https://github.com/memgraph/blog/blob/master/images/factgem-partner.jpg?raw=true"
 category: [Business]
 ---
 

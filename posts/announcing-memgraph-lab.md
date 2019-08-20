@@ -5,7 +5,7 @@ title: Announcing Memgraph Lab
 description: Memgraph Lab is an openCypher and Bolt compatible integrated development environment used to import data, develop, debug, profile database queries and visualize the query results.
 date: 2019-01-20
 sitemap: true
-header-image: /assets/img/blog/memgraph-lab-screen.jpg
+header-image: "https://github.com/memgraph/blog/blob/master/images/memgraph-lab-screen.jpg?raw=true"
 category: [Product]
 ---
 

@@ -5,7 +5,7 @@ title: Join us at Strata Data Conference in New York City from September 11–13
 description: For a second year straight, Memgraph will be attending Strata Data Conference in NYC
 date: 2018-09-07
 sitemap: true
-header-image: /assets/img/blog/strata-newyork.jpg
+header-image: "https://github.com/memgraph/blog/blob/master/images/strata-newyork.jpg?raw=true"
 category: [Business]
 ---
 

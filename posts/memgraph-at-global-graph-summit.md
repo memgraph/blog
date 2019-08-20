@@ -5,7 +5,7 @@ title: Memgraph at The Global Graph Summit
 description: We are excited to be attending the inaugural edition of the Global Graph Summit in Austin, Texas
 date: 2019-01-14
 sitemap: true
-header-image: /assets/img/blog/austin-texas.jpg
+header-image: "https://github.com/memgraph/blog/blob/master/images/austin-texas.jpg?raw=true"
 category: [Business]
 ---
 

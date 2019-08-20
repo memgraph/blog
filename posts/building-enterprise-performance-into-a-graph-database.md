@@ -5,7 +5,7 @@ title: Building Enterprise Performance Into a Graph Database
 description: The next generation of graph databases focus on speed and scalability
 date: 2018-12-03
 sitemap: true
-header-image: /assets/img/blog/enterprise-performance.jpg
+header-image: "https://github.com/memgraph/blog/blob/master/images/enterprise-performance.jpg?raw=true"
 category: [Business]
 ---
 
