@@ -1,12 +1,16 @@
 ---
 permalink: /blog/:path/
 layout: blog-subpages
+
 title: Memgraph at The Global Graph Summit
 description: We are excited to be attending the inaugural edition of the Global Graph Summit in Austin, Texas
 date: 2019-01-14
-sitemap: true
+status: published
 header-image: "https://github.com/memgraph/blog/blob/master/images/austin-texas.jpg?raw=true"
 category: [Business]
+
+sitemap: true
+
 ---
 
 # Memgraph at The Global Graph Summit

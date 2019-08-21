@@ -1,12 +1,16 @@
 ---
 permalink: /blog/:path/
 layout: blog-subpages
+
 title: Introducing ConConnector for Strata Data Conference
 description: ConConnector is a free tool, purposely built to allow you to visualize and explore connections between attendees, speakers, companies, tweets, and view the Strata Data Conference from a totally new angle.
 date: 2018-03-06
-sitemap: true
+status: published
 header-image: "https://github.com/memgraph/blog/blob/master/images/conconnector-screen.jpg?raw=true"
 category: [Product]
+
+sitemap: true
+
 ---
 
 # Introducing ConConnector for Strata Data Conference

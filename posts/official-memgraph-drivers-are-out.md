@@ -1,12 +1,16 @@
 ---
 permalink: /blog/:path/
 layout: blog-subpages
+
 title: Official Memgraph Drivers Are Out!
 description: We're happy to announce that Memgraph drivers for Python and C languages, as well as Memgraph CLI (command line interface) are now published.
 date: 2019-05-31
-sitemap: true
+status: draft
 header-image: "https://github.com/memgraph/blog/blob/master/images/drivers.jpg?raw=true"
 category: [Business]
+
+sitemap: true
+
 ---
 
 # Official Memgraph Drivers Are Out!

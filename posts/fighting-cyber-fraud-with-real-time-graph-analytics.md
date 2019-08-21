@@ -1,12 +1,16 @@
 ---
 permalink: /blog/:path/
 layout: blog-subpages
+
 title: Fighting Cyber Fraud with Real-Time Graph Analytics
 description: What to Look for in a Graph Database for Real-Time Fraud Detection 
 date: 2018-09-06
-sitemap: true
+status: published
 header-image: "https://github.com/memgraph/blog/blob/master/images/fraud-1.jpg?raw=true"
 category: [Business]
+
+sitemap: true
+
 ---
 
 # Fighting Cyber Fraud with Real-Time Graph Analytics

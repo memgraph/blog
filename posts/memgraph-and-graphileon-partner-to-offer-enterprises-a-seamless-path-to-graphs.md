@@ -1,12 +1,16 @@
 ---
 permalink: /blog/:path/
 layout: blog-subpages
+
 title: Memgraph and Graphileon Partner to Offer Enterprises a Seamless Path to Graphs
 description: Customers will be able to get started on their graph journey in a matter of minutes and seamlessly prototype, deploy and manage complex graph-based applications. 
 date: 2018-12-06
-sitemap: true
+status: published
 header-image: "https://github.com/memgraph/blog/blob/master/images/graphileon-partner.jpg?raw=true"
 category: [Business]
+
+sitemap: true
+
 ---
 
 # Memgraph and Graphileon Partner to Offer Enterprises a Seamless Path to Graphs

@@ -1,12 +1,16 @@
 ---
 permalink: /blog/:path/
 layout: blog-subpages
+
 title: Join us at The Connected Data London Meetup on August 23rd 2018
 description: The Connected Data London meetup is for people interested in Connected Data technologies and developments.
 date: 2018-08-10
-sitemap: true
+status: published
 header-image: "https://github.com/memgraph/blog/blob/master/images/connected-data.jpg?raw=true"
 category: [Business]
+
+sitemap: true
+
 ---
 
 # Join us at The Connected Data London Meetup on August 23rd 2018

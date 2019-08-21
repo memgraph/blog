@@ -1,12 +1,16 @@
 ---
 permalink: /blog/:path/
 layout: blog-subpages
+
 title: Memgraph and FactGem Partner to Give Clients Access to Real-Time, Transaction Based Analytics
 description: The partnership now allows clients real-time, more comprehensive data availability and analysis across their enterprise data.
 date: 2019-02-05
-sitemap: true
+status: published
 header-image: "https://github.com/memgraph/blog/blob/master/images/factgem-partner.jpg?raw=true"
 category: [Business]
+
+sitemap: true
+
 ---
 
 # Memgraph and FactGem Partner to Give Clients Access to Real-Time, Transaction Based Analytics
