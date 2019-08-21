@@ -3,7 +3,7 @@ permalink: /blog/:path/
 layout: blog-subpages
 title: Architecture of a Modern Graph Database — A Look Under the Memgraph’s Hood
 description: The next generation of graph databases focus on speed and scalability
-date: 2018-12-03
+date: 2018-02-19
 sitemap: true
 header-image: "https://github.com/memgraph/blog/blob/master/images/architecture.jpg?raw=true"
 category: [Business]
