@@ -23,8 +23,6 @@ Strata Data has come a long way and grew to attract thousands of attendees, spea
 
 ConConnector is a free tool, purposely built to allow you to visualize and explore connections between attendees, speakers, companies, tweets, and view the Strata Data Conference from a totally new angle.
 
-![Memgraph ConConnector](/assets/img/blog/conconnector-screen.jpg)*Memgraph ConConnector*
-
 To get started, visit [www.Strata.Rocks](https://conconnector.memgraph.com/login) and login with your Twitter account. (Don’t worry, we don’t collect your information to spam you later on. In fact, we don’t ask for your email at all)
 
 Once you’re logged-in, we use the information from your profile to recommend you 5 sessions that we think might be interesting to you. (We would love to know if those were relevant to you so please let us know on Twitter at [@memgraphdb](https://twitter.com/memgraphdb) :D)
@@ -39,13 +37,13 @@ You are now ready to explore our Conference Graph containing thousands of entiti
 
 Now that you’re all set up, let’s see what you can do with this new awesome tool. Even though this is the first version of ConConnecter there is quite a lot of interesting features.
 
-![Memgraph ConConnector — Attendee Subgraph](/assets/img/blog/conconnector-attendee.png)*Memgraph ConConnector — Attendee Subgraph*
+![Memgraph ConConnector — Attendee Subgraph](https://github.com/memgraph/blog/blob/master/images/conconnector-attendee.png)*Memgraph ConConnector — Attendee Subgraph*
 
 **Search:** Look for specific companies, people, keywords, topic, etc. Once you find what you are looking for, you can visualize and explore the subgraph in more details.
 
 **Tweets:** Under the search option, you can easily track new incoming tweets related to the conference and see what people are talking about. Clicking on a specific tweet lets you see what it’s connected to, which can give you great insights into what’s being discussed around every topic and by whom.
 
-![Memgraph ConConnector - Tweets](/assets/img/blog/conconnector-tweets.png)*Memgraph ConConnector - Tweets*
+![Memgraph ConConnector - Tweets](https://github.com/memgraph/blog/blob/master/images/conconnector-tweets.png)*Memgraph ConConnector - Tweets*
 
 **Filtering:** Under the Legend, you can unselect the elements that you don’t want to see on the graph. This let’s you declutter the visualisation and make exploring the Conference Graph a littler smoother.
 
