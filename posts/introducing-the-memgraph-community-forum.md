@@ -12,7 +12,6 @@ category: [Company]
 sitemap: true
 
 ---
-![Memgraph Community Forum](https://i.imgur.com/y4tDL06.jpg)*Photo by Volodymyr Hryshchenko on Unsplash*
 
 # Introducing The Memgraph Community Forum
 
