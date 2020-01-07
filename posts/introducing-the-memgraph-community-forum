@@ -12,7 +12,7 @@ category: [Company]
 sitemap: true
 
 ---
-"###### ![Memgraph Community Forum](https://i.imgur.com/y4tDL06.jpg)*Photo by Volodymyr Hryshchenko on Unsplash* "
+![Memgraph Community Forum](https://i.imgur.com/y4tDL06.jpg)*Photo by Volodymyr Hryshchenko on Unsplash*
 
 # Introducing The Memgraph Community Forum
  
@@ -30,3 +30,5 @@ In an effort to achieve our goal of delivering you the best support possible, we
 In the long run, we're hoping to build a rich repository of questions and answers that will allow you to find answers to common problems quickly and help us build better products based on your feedback.
  
 As always, we welcome your questions and feedback. Feel free to reach out to us on the [Memgraph community forum](https://discourse.memgraph.com/).
+
+Happy coding!
