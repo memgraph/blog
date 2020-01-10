@@ -4,7 +4,7 @@ layout: blog-subpages
 
 title: How to Install Memgraph and Memgraph Lab with Docker on macOS
 description: A tutorial for installing Memgraph and Memgraph Lab on macOS
-date: 2019-01-21
+date: 2020-01-10
 status: published
 header-image: "https://i.imgur.com/T7Ilj3h.jpg"
 
