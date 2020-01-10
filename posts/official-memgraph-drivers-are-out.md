@@ -7,7 +7,7 @@ description: We're happy to announce that Memgraph drivers for Python and C lang
 date: 2020-01-09
 status: draft
 header-image: "https://github.com/memgraph/blog/blob/master/images/drivers.jpg?raw=true"
-category: [Business]
+category: [Product]
 
 sitemap: true
 
