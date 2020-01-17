@@ -99,20 +99,13 @@ MATCH (u:User)-[r]->(x) RETURN u, r, x;
  
 The query should return the following result:
 ```
-+--------------------------------+--------------------------------+--------------------------------+
- 
-| u  | r  | x  |
- 
-+--------------------------------+--------------------------------+--------------------------------+
- 
++--------------------------+----------+--------------------------------+
+|         u                |     r    |                x               |
++--------------------------+----------+--------------------------------+
 | (:User {name: "Alice"})  | [Likes]  | (:Software {name: "Memgraph"}) |
- 
-+--------------------------------+--------------------------------+--------------------------------+
- 
-1 row in set (0.038 sec)
++--------------------------+----------+--------------------------------+
 ```
- 
- 
+
 Excellent! You have now installed Memgraph and used its CLI tool to run a few simple queries.
  
 Now, aside from a CLI tool, Memgraph also has an integrated development environment called Memgraph Lab to help you manage and execute various tasks on your databases. Let's move on to the next step to install it.
