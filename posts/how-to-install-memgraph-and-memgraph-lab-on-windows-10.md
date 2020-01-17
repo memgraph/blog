@@ -14,7 +14,7 @@ sitemap: true
 
 # How to Install Memgraph and Memgraph Lab on Windows 10.
  
-[Memgraph](https://memgraph.com/product/) is a native, in-memory graph database built for real-time business-critical applications. Memgraph supports strongly-consistent ACID transactions; and uses the Cypher query language for structuring, manipulating, and exploring data.
+[Memgraph](https://memgraph.com/product/) is a native, in-memory graph database built for real-time business-critical applications. Memgraph supports strongly-consistent ACID transactions; and uses the [Cypher query language](https://www.opencypher.org/) for structuring, manipulating, and exploring data.
  
 [Memgraph Lab](https://memgraph.com/product/lab/) is a lightweight and intuitive Cypher and [Bolt](https://boltprotocol.org/) compatible integrated development environment (IDE). It's designed to help you import data, develop, debug, and profile database queries and visualize query results.
  
@@ -71,22 +71,13 @@ If Memgraph has been installed correctly you will see something like this:
  
 Awesome! You now have a running instance of Memgraph on your Windows machine. In the next step, you will learn how to query Memgraph from the command line interface (CLI).
  
-## Step 3 — Querying Memgraph through the CLI tool with mg_client.
+## Step 3 — Querying Memgraph through the CLI tool with mgconsol.
  
-Memgraph comes with a tool called `mg_client` which allows you to execute queries against the Memgraph server from your command-line interface.
+Memgraph comes with a tool called `mgconsole` which allows you to execute queries against the Memgraph server from your command-line interface.
  
-To install `mg_client`, you will need to open a new Debian shell and run the following command:
-```
-mg_client
-```
-If the mg_client has successfully connected to the server, you’ll receive a prompt similar to this:
-> mg_client 0.50.0
-> Type :help for shell usage
-> Quit the shell by typing Ctrl-D(eof) or :quit
-> Connected to 'memgraph://127.0.0.1:7687'
-> memgraph>
+To install `mgconsole`, you can refer to the [mgconcole installation guide](https://github.com/memgraph/mgconsole)
  
-You are now ready to query Memgraph. To make sure that everything works, we will execute two basic queries that demonstrate the creation and retrieval of data from the database.
+Once you have `mgconsole` successfully installed, you are now ready to query Memgraph. To make sure that everything works, we will execute two basic queries that demonstrate the creation and retrieval of data from the database.
  
 Memgraph supports the Cypher query through the  [openCypher](https://www.opencypher.org/) project. Cypher is a SQL-like declarative query language purposely designed to efficiently query and update property graphs.
  
@@ -121,7 +112,6 @@ The query should return the following result:
 1 row in set (0.038 sec)
 ```
  
-Lastly, if you want to exit the `mg_client` tool, you can type `:quit` in the prompt.
  
 Excellent! You have now installed Memgraph and used its CLI tool to run a few simple queries.
  
@@ -172,8 +162,8 @@ You should get a result that looks similar to this in the graph tab:
  
 ![Memgraph Lab displaying the graph visualization of a query result as Graph.](https://i.imgur.com/MghZbgi.png)
  
-You now have Memgraph Lab working correctly on your system. Memgraph Lab's visual presentation of query results is one of its best features. It helps you understand the relationships of your nodes compared to the tabular format presented by the `mg_client` tool we introduced in Step 3. This makes Memgraph Lab the preferred tool for both beginners learning Memgraph and the Cypher query language, and advanced Memgraph users working on complex queries.
+You now have Memgraph Lab working correctly on your system. Memgraph Lab's visual presentation of query results is one of its best features. It helps you understand the relationships of your nodes compared to the tabular format presented by the `mgconsole` tool we introduced in Step 3. This makes Memgraph Lab the preferred tool for both beginners learning Memgraph and the Cypher query language, and advanced Memgraph users working on complex queries.
  
 ## Conclusion
  
-In this tutorial, you installed Memgraph and Memgraph Lab on Windows 10 using Windows Subsystem for Linux. You tested the Memgraph installation by running a Memgraph server and using the `mg_client` CLI tool to execute Cypher queries against the server. The same goes for Memgraph Lab, but instead of using the CLI tool, you ran the queries inside the application.
+In this tutorial, you installed Memgraph and Memgraph Lab on Windows 10 using Windows Subsystem for Linux. You tested the Memgraph installation by running a Memgraph server and using the `mgconsole` CLI tool to execute Cypher queries. The same goes for Memgraph Lab, but instead of using the CLI tool, you ran the queries inside the application.
