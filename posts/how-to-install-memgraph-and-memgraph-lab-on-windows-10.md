@@ -4,7 +4,7 @@ layout: blog-subpages
 
 title: How to Install Memgraph and Memgraph Lab on Windows 10
 description: A tutorial for installing Memgraph and Memgraph Lab on Windows 10
-date: 2020-01-10
+date: 2020-01-17
 status: published
 header-image: "https://i.imgur.com/BqG6r2D.jpg"
 category: [Tutorial]
