@@ -32,7 +32,7 @@ For a seamless installation of Memgraph and Memgraph Lab on your Mac, ensure tha
 
 ## Step 1 — Downloading and Installing Memgraph
 
-You can install Memgraph on macOS using the [Docker](https://www.docker.com/) image provided on Memgraph's website. [Download and save it](https://memgraph.com/download/memgraph/v0.14.1/memgraph-0.14.1-docker.tar.gz) to a location you can quickly locate later on.
+You can install Memgraph on macOS using the [Docker](https://www.docker.com/) image provided on Memgraph's website. [Download and save it](https://memgraph.com/download/memgraph/v0.50.0/memgraph-0.50.0-docker.tar.gz) to a location you can quickly locate later on.
 
 Before we go on, it's essential that you [have Docker installed on your system](https://docs.docker.com/docker-for-mac/install/) so you are able to install and run Memgraph.
 
@@ -120,7 +120,7 @@ docker run -it --entrypoint=mg_client memgraph --host HOST
 If the `mg_client` can connect to the server, you'll receive a prompt similar to this:
 
 ```
-mg_client 0.14.1
+mg_client 0.50.0
 Type :help for shell usage
 Quit the shell by typing Ctrl-D(eof) or :quit
 Connected to 'memgraph://172.17.0.2:7687'
