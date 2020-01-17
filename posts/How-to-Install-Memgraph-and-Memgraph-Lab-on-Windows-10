@@ -6,7 +6,7 @@ title: How to Install Memgraph and Memgraph Lab on Windows 10
 description: A tutorial for installing Memgraph and Memgraph Lab on Windows 10
 date: 2020-01-10
 status: published
-header-image: "(https://i.imgur.com/BqG6r2D.jpg)"
+header-image: "https://i.imgur.com/BqG6r2D.jpg"
 category: [Tutorial]
 
 sitemap: true
@@ -53,9 +53,9 @@ dpkg -i /path/to/memgraph_<version>.deb
 * replace `/path/to` with path where you downloaded your installation package.
 * replace `_version` with the version of the package that you are installing(usually the name of the installation package you downloaded). 
  
-For example, if you downloaded version `0.1.14.1-1_amd64` to your D: Directory than this command will be changed to:
+For example, if you downloaded version `0.50.0-1_amd64` to your D: Directory than this command will be changed to:
 ```
-dpkg -i /mnt/d/memgraph_0.14.1-1_amd64.deb
+dpkg -i /mnt/d/memgraph_0.50.0-1_amd64.deb
 ```
 Note: If you see any error related to missing dependency packages. You might have to run `sudo apt get update` before installing Memgraph.
  
@@ -80,7 +80,7 @@ To install `mg_client`, you will need to open a new Debian shell and run the fol
 mg_client
 ```
 If the mg_client has successfully connected to the server, you’ll receive a prompt similar to this:
-> mg_client 0.14.1
+> mg_client 0.50.0
 > Type :help for shell usage
 > Quit the shell by typing Ctrl-D(eof) or :quit
 > Connected to 'memgraph://127.0.0.1:7687'
